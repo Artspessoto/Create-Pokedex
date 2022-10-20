@@ -4,8 +4,7 @@
  * PUT => Alterar um dado
  * DELETE => remover um dado
  */
-
-/**
+/*
  * Body => sempre que eu quiser enviar dados para a minha aplicação
  * Params => tudo o que vem na Url(parâmetros de rota)
  * Query => faz parte da rota, mas não são required. ex: /kanto?id=36172321&value=321673
