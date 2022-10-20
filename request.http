@@ -1,0 +1,34 @@
+## cadastrar pokémon
+POST http://127.0.0.1:3000/kanto
+Content-Type: application/json
+
+{   
+    "name": "Ditto",
+    "number": "#???",
+    "type": "Normal"
+}
+
+
+
+### requisição
+GET http://127.0.0.1:3000/kanto
+
+
+### verificação de id
+GET http://127.0.0.1:3000/kanto/d193a30e-812b-4b39-ae2e-fe9928e73306
+
+
+### alterar dados do pokémon
+PUT http://127.0.0.1:3000/kanto/d193a30e-812b-4b39-ae2e-fe9928e73306
+Content-Type: application/json
+
+{   
+    "name": "TESTE2",
+    "number": "#0023213",
+    "type": "DESCONHECIDO"
+}
+
+
+### deletar pokémon
+DELETE http://127.0.0.1:3000/kanto/d193a30e-812b-4b39-ae2e-fe9928e73306
+Content-Type: application/json
