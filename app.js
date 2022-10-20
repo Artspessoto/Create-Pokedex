@@ -11,6 +11,7 @@
  * Query => faz parte da rota, mas não são required. ex: /kanto?id=36172321&value=321673
  */
 
+
 const express = require("express");
 const { randomUUID } = require("crypto"); //random id
 const fs = require("fs");
